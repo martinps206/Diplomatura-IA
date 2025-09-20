@@ -27,7 +27,7 @@ def digitos_y_suma(numero: int) -> tuple[int, int]:
 # ========================
 def generar_y_ordenar():
     """Genera 100 números aleatorios y los ordena."""
-    numeros = [random.uniform(0, 10) for _ in range(10)]
+    numeros = [random.uniform(0, 10) for _ in range(100)]
     numeros.sort()
     return numeros
 
